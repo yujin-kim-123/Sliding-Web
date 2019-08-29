@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="주소변경">
+        <EditTextPreference
+            android:key="input_url1"
+            android:title="첫번째 주소 변경"
+            android:dialogTitle="첫번째 주소 입력" />
+
+        <EditTextPreference
+            android:key="input_url2"
+            android:title="두번째 주소 변경"
+            android:dialogTitle="두번째 주소 입력" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
